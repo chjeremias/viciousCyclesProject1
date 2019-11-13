@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Customize Quote</title>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="../css/quotestyles.css" rel="stylesheet">
+</head>
+
+<body>
+	<form action="" id="questions" method="post" name="questions">
+			<a href="../template/home.html">Home</a>
+		<h1>Customize Quote</h1>
+
+		<fieldset id="info">
+				<label for="fName">First Name</label>
+				<input id="fName" name="fName" type="text"><br>
+
+                <label for="lName">Last Name</label>
+				<input id="lName" name="lName" type="text"><br>
+				
+				<label for="email">Email Address</label>
+				<input id="email" name="email" type="email"><br>
+
+				<label for="tel">Phone</label>
+				<input id="phone" name="phone" type="tel"><br>
+		</fieldset><br>
+
+
+		<fieldset>
+			<legend>Address</legend>
+				<label for="street">Number and Street</label>
+				<input id="street" name="street" type="text"><br>
+
+				<label for="city">City</label>
+				<input id="city" name="city" type="text"><br>
+
+				<label for="state">State</label> 
+				<select id="state" name="state">
+					<option value="AL">Alabama</option>
+					<option value="AK">Alaska</option>
+					<option value="AZ">Arizona</option>
+					<option value="AR">Arkansas</option>
+					<option value="CA">California</option>
+					<option value="CO">Colorado</option>
+					<option value="CT">Connecticut</option>
+					<option value="DE">Delaware</option>
+					<option value="DC">District Of Columbia</option>
+					<option value="FL">Florida</option>
+					<option value="GA">Georgia</option>
+					<option value="HI">Hawaii</option>
+					<option value="ID">Idaho</option>
+					<option value="IL">Illinois</option>
+					<option value="IN">Indiana</option>
+					<option value="IA">Iowa</option>
+					<option value="KS">Kansas</option>
+					<option value="KY">Kentucky</option>
+					<option value="LA">Louisiana</option>
+					<option value="ME">Maine</option>
+					<option value="MD">Maryland</option>
+					<option value="MA">Massachusetts</option>
+					<option value="MI">Michigan</option>
+					<option value="MN">Minnesota</option>
+					<option value="MS">Mississippi</option>
+					<option value="MO">Missouri</option>
+					<option value="MT">Montana</option>
+					<option value="NE">Nebraska</option>
+					<option value="NV">Nevada</option>
+					<option value="NH">New Hampshire</option>
+					<option value="NJ">New Jersey</option>
+					<option value="NM">New Mexico</option>
+					<option value="NY">New York</option>
+					<option value="NC">North Carolina</option>
+					<option value="ND">North Dakota</option>
+					<option value="OH">Ohio</option>
+					<option value="OK">Oklahoma</option>
+					<option value="OR">Oregon</option>
+					<option value="PA">Pennsylvania</option>
+					<option value="RI">Rhode Island</option>
+					<option value="SC">South Carolina</option>
+					<option value="SD">South Dakota</option>
+					<option value="TN">Tennessee</option>
+					<option value="TX">Texas</option>
+					<option value="UT">Utah</option>
+					<option value="VT">Vermont</option>
+					<option value="VA">Virginia</option>
+					<option value="WA">Washington</option>
+					<option value="WV">West Virginia</option>
+					<option value="WI">Wisconsin</option>
+					<option value="WY">Wyoming</option>
+				</select><br>
+
+				<label for="zip">Zip</label>
+				<input id="zip" pattern="[0-9]{5}" type="text"><br>
+        </fieldset><br>
+        
+		<fieldset id="contact">
+				<legend>Contact</legend>
+                    <label for="contact">Best way to contact you?</label>
+                    <select id="contact" name="contact">
+                        <option value="email">Email</option>
+                        <option value="tel">Telephone</option>
+						<option value="address">Mail</option>
+                    </select><br>	
+		</fieldset><br>
+
+		<fieldset id="color">
+				<legend>Color Options</legend>
+			    <input type="radio" name="customColor" value="customColor" id="customColor"> 
+                <label for="customColor">Custom Color</label><br>
+
+			    <input type="radio" name="stockColor" value="stockColor" id="stockColor"> 
+				<label for="stockColor">Stock Color (Blue, Black, Orange, Red)</label>
+		</fieldset><br>		
+        
+        
+        <fieldset id="accessories">
+            <legend>Accessories</legend>
+            
+            <input id="airfuel" name="accessories" type="checkbox" value="airfuel">
+            <label for="airfuel">Air/Fuel</label>
+            
+            <input id="audio" name="accessories" type="checkbox" value="audio">
+            <label for="audio">Audio</label>
+            
+            <input id="drivetrans" name="accessories" type="checkbox" value="drivetrans">
+            <label for="drivetrans">Drive/Transmission</label>
+            
+            <input id="engine" name="accessories" type="checkbox" value="engine">
+            <label for="engine">Engine</label>
+            
+            <input id="exhaust" name="accessories" type="checkbox" value="exhaust">
+            <label for="exhaust">Exhaust</label>
+            
+            <input id="footcontrols" name="accessories" type="checkbox" value="footcontrols">
+            <label for="footcontrols">Foot Controls</label>
+            
+            <input id="fuelmanage" name="accessories" type="checkbox" value="fuelmanage">
+            <label for="fuelmanage">Fuel Management</label>
+            
+            <input id="barscontrols" name="accessories" type="checkbox" value="barscontrols">
+            <label for="barscontrols">Handlebars/Controls</label>
+            
+            <input id="lighting" name="accessories" type="checkbox" value="lighting">
+            <label for="lighting">Lighting</label>
+            
+            <input id="luggage" name="accessories" type="checkbox" value="luggage">
+            <label for="luggage">Luggage</label>
+            
+            <input id="mirrors" name="accessories" type="checkbox" value="mirrors">
+            <label for="mirrors">Mirrors</label>
+            
+            <input id="seats" name="accessories" type="checkbox" value="seats">
+            <label for="seats">Seats/Sissy Bars</label>
+            
+            <input id="suspen" name="accessories" type="checkbox" value="suspen">
+            <label for="suspen">Suspension</label>
+            
+            <input id="windshield" name="accessories" type="checkbox" value="windshield">
+			<label for="windshield">Windshields/Fairings</label>
+        </fieldset><br>
+
+		<fieldset>
+			<label for="details">Additional Details</label><br>
+			<textarea id="details" name="details"></textarea><br>
+		</fieldset>
+
+		<input type="submit" value="Submit"><br><br>
+
+	</form>
+</body>
+</html>
